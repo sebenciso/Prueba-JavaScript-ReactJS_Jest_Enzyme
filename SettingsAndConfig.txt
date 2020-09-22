@@ -1,0 +1,42 @@
+Settings and Configuration: 
+
+Windows 10 Operating System Instance Browser Installation: Chrome and / or Mozilla Firefox 4.7 
+
+JavaScript SDK and JDK installation: 
+
+1. In the Administrative mode of command prompt, paste the code and run it (install Node.js, Python, and JDK).
+
+If you have already installed Node.js, make sure it has version above 8 and if you have already installed JDK, make it version 8 or newer version.
+
+choco install -y nodejs.install python2 jdk8  
+React Native Environment Setup.
+
+2. Node comes with npm (Node Package Manager), which lets you install the React Native. Run the given code:
+
+npm install -g react-native-cli  
+React Native Environment Setup
+
+											https://www.javatpoint.com/react-native-environment-setup
+
+
+Configuración: Testing con  Jest y Enzyme.
+
+Para escribir las pruebas automatizadas de nuestras aplicaciones de React vamos a utilizar Jest y Enzyme.
+
+Enzyme es una librería que nos va a permitir escribir pruebas de nuestros componentes más fácilmente.
+
+ 											https://github.com/makeitrealcamp/guides/blob/master/react/testing.md
+
+
+This project was bootstrapped with Create React App:
+
+											https://github.com/rulpalacios/FitnessApp
+
+
+Create React App End-to-End Tests: 
+
+                                                                                        https://github.com/facebook/create-react-app/tree/master/test
+
+
+
+
