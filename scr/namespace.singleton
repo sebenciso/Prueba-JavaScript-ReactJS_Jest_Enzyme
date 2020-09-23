@@ -1,0 +1,9 @@
+var namespace = {
+  singleton: {
+    amethod: function() {
+      console.log("amethod");
+    }
+  }
+};
+// Invoke: namespace.singleton.amethod()
+// Tomado de http://www.etnassoft.com/2011/05/20/el-patron-singleton-en-javascript/ 
