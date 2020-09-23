@@ -1,0 +1,12 @@
+public class Singleton {
+ 
+  public static final Singleton INSTANCE = new Singleton();
+ 
+  // Private constructor prevents external instantiation
+  private Singleton() {
+  }
+ 
+  public void amethod() {
+    // ... Script tomado de http://www.etnassoft.com/2011/05/20/el-patron-singleton-en-javascript/
+  }
+}
