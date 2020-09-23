@@ -33,3 +33,4 @@ class DeloRean implements ***<TimeMachine, Car> {
   }
 }
 // Tomado de https://blog.raulmoya.es/principios-s-o-l-i-d-en-javascript-14041e6a3c43
+//***En Javascript no se puede extender de varias interfaces a la vez por lo que este principio no aplica a la perfección (pero sí en Typescript). 
