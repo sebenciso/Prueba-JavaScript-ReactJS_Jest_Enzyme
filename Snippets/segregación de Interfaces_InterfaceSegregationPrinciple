@@ -1,0 +1,36 @@
+class Car {
+  startEngine() {}
+  accelerate() {}
+}
+// https://blog.raulmoya.es/principios-s-o-l-i-d-en-javascript-14041e6a3c43 
+
+class Seat extends Car {
+  startEngine() {
+    // start engine...
+  }
+  accelerate() {
+    // accelerate...
+  }
+}
+
+const TimeMachine = Super => class extends Super {
+  backToThePast() {}
+  backToTheFuture() {}
+};
+
+class DeloRean extends TimeMachine(Car) {
+  startEngine() {
+    // start engine...
+  }
+  accelerate() {
+    // accelerate...
+  }
+  backToThePast() {
+    // back to the past...
+  }
+  backToTheFuture() {
+    // back to the future...
+  }
+}
+
+// https://blog.raulmoya.es/principios-s-o-l-i-d-en-javascript-14041e6a3c43 
